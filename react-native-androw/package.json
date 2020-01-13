@@ -1,21 +1,30 @@
 {
-    "name": "react-native-androw",
-    "description": "Solve shadows in React Native for Android",
-    "version": "0.0.33",
-    "author": "Olof Larsson <olof@folof.se> (http://www.folof.se)",
-    "homepage": "https://github.com/folofse/androw",
-    "keywords": [
-      "react-native","shadow","android","drop shadow"
-    ],
-    "license": "MIT",
-    "main": "src/index.js",
-    "peerDependencies": {
-      "react-native": ">=0.41.2"
-    },
-    "scripts": {
-      "release:major": "npm version major && git push origin && git push origin --follow-tags",
-      "release:minor": "npm version minor && git push origin && git push origin --follow-tags",
-      "release:patch": "npm version patch && git push origin && git push origin --follow-tags",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    }
+  "name": "react-native-androw",
+  "description": "Solve shadows in React Native for Android",
+  "version": "0.0.33",
+  "author": "Olof Larsson <olof@folof.se> (http://www.folof.se)",
+  "homepage": "https://github.com/folofse/androw",
+  "keywords": [
+    "react-native",
+    "shadow",
+    "android",
+    "drop shadow"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "peerDependencies": {
+    "react-native": ">=0.41.2"
+  },
+  "scripts": {
+    "release:major": "npm version major && git push origin && git push origin --follow-tags",
+    "release:minor": "npm version minor && git push origin && git push origin --follow-tags",
+    "release:patch": "npm version patch && git push origin && git push origin --follow-tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-native": "^0.60.27",
+    "typescript": "^3.7.4"
   }
+}

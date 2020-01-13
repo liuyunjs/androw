@@ -1,11 +1,9 @@
 // @flow
-import { requireNativeComponent, View } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
-const componentInterface = {
-	name: 'RNAndrow',
-	propTypes: {
-		...View.propTypes, // include the default view properties
-	},
-};
+// const componentInterface = {
+//   name: "RNAndrow",
+//   propTypes: ViewPropTypes,
+// };
 
-export default requireNativeComponent('RNAndrow', componentInterface);
+export default requireNativeComponent('RNAndrow');

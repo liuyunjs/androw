@@ -1,4 +1,4 @@
 // @flow
-import Androw from "./Androw";
+import Androw from './Androw';
 
 export default Androw;
